@@ -1,45 +1,53 @@
-<div align="center">
-
 # 🩺 Chronic Kidney Disease Prediction using Machine Learning
 
-### Hybrid Machine Learning Model for Early CKD Prediction using Ensemble Learning
+<p align="center">
 
-<p>
-<img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?logo=scikitlearn"/>
-<img src="https://img.shields.io/badge/XGBoost-Ensemble-red"/>
-<img src="https://img.shields.io/badge/Gradio-Web%20Application-yellow"/>
-<img src="https://img.shields.io/badge/License-MIT-green"/>
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn)
+![XGBoost](https://img.shields.io/badge/XGBoost-Ensemble-success?style=for-the-badge)
+![Gradio](https://img.shields.io/badge/Gradio-Web%20App-orange?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 </p>
 
-A Machine Learning project that predicts **Chronic Kidney Disease (CKD)** using advanced preprocessing, feature engineering, SMOTE, and ensemble learning techniques.
+<p align="center">
+<b>Hybrid Machine Learning Model for Early Chronic Kidney Disease Prediction using Ensemble Learning</b>
+</p>
 
-</div>
+<p align="center">
+A Machine Learning project that predicts Chronic Kidney Disease (CKD) using advanced preprocessing, feature engineering, SMOTE, and ensemble learning techniques.
+</p>
 
 ---
 
-# 📌 Overview
+# 🚀 Overview
 
 Chronic Kidney Disease (CKD) is a serious health condition that can lead to kidney failure if not detected early.
 
-This project applies Machine Learning algorithms to predict CKD accurately using patient health parameters. The model includes preprocessing, feature engineering, class balancing with **SMOTE**, and ensemble learning to improve prediction performance.
+This project applies Machine Learning techniques to predict CKD accurately using patient health parameters. The model includes:
+
+- Data Cleaning
+- Feature Engineering
+- SMOTE Oversampling
+- Ensemble Learning
+- Interactive Prediction using Gradio
 
 ---
 
 # ✨ Features
 
-- 📊 Data Preprocessing
-- 🧹 Data Cleaning
+- 🧹 Data Preprocessing
+- 📊 Exploratory Data Analysis
 - ⚙️ Feature Engineering
 - ⚖️ SMOTE for Class Balancing
-- 🤖 Ensemble Machine Learning
+- 🤖 Ensemble Machine Learning Model
 - 📈 Model Evaluation
 - 🌐 Interactive Gradio Interface
-- ⚡ High Prediction Accuracy
+- 🎯 High Prediction Accuracy
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠 Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -56,6 +64,40 @@ This project applies Machine Learning algorithms to predict CKD accurately using
 
 ---
 
+# 📁 Dataset
+
+The project uses a Chronic Kidney Disease dataset containing patient medical records.
+
+### Features include
+
+- Age
+- Blood Pressure
+- Specific Gravity
+- Albumin
+- Sugar
+- Blood Glucose Random
+- Blood Urea
+- Serum Creatinine
+- Sodium
+- Potassium
+- Hemoglobin
+- Packed Cell Volume
+- White Blood Cell Count
+- Red Blood Cell Count
+- Hypertension
+- Diabetes Mellitus
+- Coronary Artery Disease
+- Appetite
+- Pedal Edema
+- Anemia
+
+### Target
+
+- CKD
+- Not CKD
+
+---
+
 # 📂 Project Structure
 
 ```text
@@ -69,7 +111,7 @@ ckd-prediction-ml/
 
 ---
 
-# 📈 Machine Learning Workflow
+# 📊 Machine Learning Pipeline
 
 ```text
 Dataset
@@ -108,38 +150,46 @@ The project evaluates multiple algorithms including:
 - XGBoost
 - Hybrid Soft Voting Ensemble
 
-The final prediction is generated using the **Hybrid Ensemble Model**, which combines multiple classifiers for improved accuracy and robustness.
+The final prediction system uses a Hybrid Ensemble Model for improved accuracy and robustness.
 
 ---
 
-# 📊 Model Performance
+# 📈 Model Performance
 
 ### Highlights
 
 - ✅ High Prediction Accuracy
 - ✅ Improved Performance using SMOTE
-- ✅ Ensemble-based Classification
+- ✅ Ensemble-Based Classification
 - ✅ Interactive Prediction Interface
 
-> Replace this section later with your actual metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC).
+> **Note:** Update this section with your actual evaluation metrics after final testing.
+
+| Metric | Value |
+|---------|-------|
+| Accuracy | Update |
+| Precision | Update |
+| Recall | Update |
+| F1 Score | Update |
+| ROC-AUC | Update |
 
 ---
 
-# 🚀 Installation
+# ⚙️ Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/mahadevcodes/ckd-prediction-ml.git
 ```
 
-Go to the project folder:
+Go inside the project
 
 ```bash
 cd ckd-prediction-ml
 ```
 
-Install dependencies:
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -149,7 +199,7 @@ pip install -r requirements.txt
 
 # ▶️ Usage
 
-Open the notebook:
+Open the notebook
 
 ```bash
 jupyter notebook
@@ -161,7 +211,7 @@ or
 jupyter lab
 ```
 
-Run all notebook cells to:
+Run all cells to
 
 - Load Dataset
 - Train Models
@@ -172,37 +222,11 @@ Run all notebook cells to:
 
 # 📸 Project Screenshots
 
-> Add screenshots here after taking them from your Gradio application.
-
-Example:
-
-```text
-assets/
-│
-├── home.png
-├── prediction.png
-└── result.png
-```
-
-Then include them like this:
-
-```markdown
-## Home
-
-![Home](assets/home.png)
-
-## Prediction
-
-![Prediction](assets/prediction.png)
-
-## Result
-
-![Result](assets/result.png)
-```
+Project screenshots and prediction results will be added soon.
 
 ---
 
-# 📦 Requirements
+# 📋 Requirements
 
 Main packages used:
 
@@ -218,13 +242,13 @@ Main packages used:
 
 ---
 
-# 🎯 Future Improvements
+# 🗺 Roadmap
 
-- Deploy using Hugging Face Spaces
-- Build Flask/FastAPI version
-- Add Explainable AI (SHAP/LIME)
-- Improve UI Design
-- Train on larger healthcare datasets
+- 🚀 Deploy on Hugging Face Spaces
+- 🌐 Deploy Web Version
+- 📊 Add Explainable AI (SHAP/LIME)
+- 🤖 Improve UI Design
+- 📈 Train on larger healthcare datasets
 
 ---
 
@@ -232,26 +256,25 @@ Main packages used:
 
 **Mahadev Vengurlekar**
 
-- 💼 Full Stack Developer
-- 🤖 Automation Engineer
-- 🧠 AI & Machine Learning Enthusiast
+💼 Full Stack Developer
 
-GitHub:
-https://github.com/mahadevcodes
+🤖 Automation Engineer
 
-LinkedIn:
-https://www.linkedin.com/in/mahadev-vengurlekar
+🧠 AI & Machine Learning Enthusiast
+
+### Connect with me
+
+- GitHub: https://github.com/mahadevcodes
+- LinkedIn: https://www.linkedin.com/in/mahadev-vengurlekar
 
 ---
 
 # ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by Mahadev Vengurlekar**
-
-</div>
+<p align="center">
+Made with ❤️ by <b>Mahadev Vengurlekar</b>
+</p>
