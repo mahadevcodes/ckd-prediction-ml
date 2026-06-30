@@ -154,35 +154,24 @@ The final prediction system uses a Hybrid Ensemble Model for improved accuracy a
 
 ---
 
-# 📈 Model Performance
-
-### Highlights
-
-- ✅ High Prediction Accuracy
-- ✅ Improved Performance using SMOTE
-- ✅ Ensemble-Based Classification
-- ✅ Interactive Prediction Interface
-
-> **Note:** Update this section with your actual evaluation metrics after final testing.
-
 ## 📈 Model Performance
 
 ### Highlights
 
-- ✅ Accuracy: **98.75%**
-- ✅ Precision: **100.00%**
-- ✅ Recall: **98.00%**
-- ✅ F1-Score: **98.99%**
-- ✅ ROC-AUC Score: **1.00**
+- ✅ Accuracy: 98.75%
+- ✅ Precision: 100.00%
+- ✅ Recall: 98.00%
+- ✅ F1-Score: 98.99%
+- ✅ ROC-AUC Score: 1.00
 - ✅ Ensemble-based prediction using Hybrid Voting Model
 
 | Metric | Value |
 |---------|-------|
-| Accuracy | **98.75%** |
-| Precision | **100.00%** |
-| Recall | **98.00%** |
-| F1 Score | **98.99%** |
-| ROC-AUC | **1.00** |
+| Accuracy | 98.75% |
+| Precision | 100.00% |
+| Recall | 98.00% |
+| F1 Score | 98.99% |
+| ROC-AUC | 1.00 |
 
 # ⚙️ Installation
 
