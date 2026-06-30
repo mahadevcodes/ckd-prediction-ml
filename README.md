@@ -153,7 +153,6 @@ The project evaluates multiple algorithms including:
 The final prediction system uses a Hybrid Ensemble Model for improved accuracy and robustness.
 
 ---
-
 ## 📈 Model Performance
 
 ### Highlights
