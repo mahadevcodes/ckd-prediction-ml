@@ -230,7 +230,7 @@ Run all cells to
 ### 🩺 Prediction Result
 
 <p align="center">
-  <img src="assets/Prediction Result.png" width="700"/>
+  <img src="assets/Prediction Result.png" width="600"/>
 </p>
 
 ---
@@ -238,9 +238,8 @@ Run all cells to
 ### 📊 Model Performance Comparison
 
 <p align="center">
-  <img src="assets/Model Performance.png" width="850"/>
+  <img src="assets/Model Performance.png" width="750"/>
 </p>
-
 ---
 
 # 📋 Requirements
