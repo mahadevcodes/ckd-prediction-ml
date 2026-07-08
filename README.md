@@ -217,9 +217,29 @@ Run all cells to
 
 ---
 
-# 📸 Project Screenshots
+## 📷 Project Screenshots
 
-Project screenshots and prediction results will be added soon.
+### 🏠 Homepage
+
+<p align="center">
+  <img src="assets/Homepage.png" width="900"/>
+</p>
+
+---
+
+### 🩺 Prediction Result
+
+<p align="center">
+  <img src="assets/Prediction Result.png" width="700"/>
+</p>
+
+---
+
+### 📊 Model Performance Comparison
+
+<p align="center">
+  <img src="assets/Model Performance.png" width="850"/>
+</p>
 
 ---
 
